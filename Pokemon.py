@@ -21,6 +21,6 @@ def create_moves_list(moves):
             moves_list.append(move)
 
     # Remove some characters that weren't added to moves.csv
-    return [move.strip(" \' ").strip(" \" ").strip() for move in split_moves]
+    return [move.strip(" \' ").strip(" \" ").strip() for move in moves_list]
      
 
